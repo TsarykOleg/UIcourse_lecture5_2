@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Registration</legend>
+        <label for="user_name">Name</label>
+        <input type="text" name="user_name" placeholder="Name" />
+        <br />
+        <br />
+        <label for="mail">Email</label>
+        <input type="mail" name="mail" placeholder="email" />
+        <br />
+        <br />
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="password" />
+        <br />
+        <br />
+        <label for="password">Repeat Password</label>
+        <input type="password" name="password" placeholder="password" />
+        <br />
+        <br />
+        <label for="date">Date</label>
+        <input type="date" name="date" />
+        <br />
+        <br />
+        <label for="file">Add avatar</label>
+        <input type="file" name="file" />
+        <fieldset>
+          <br />
+          <br />
+          <legend>Select your gender</legend>
+          <label for="gender">Male</label>
+          <input type="radio" name="gender" value="male" />
+          <label for="gender">Female</label>
+          <input type="radio" name="gender" value="female" />
+          <label for="gender">Other</label>
+          <input type="radio" name="gender" value="other" />
+        </fieldset>
+        <fieldset>
+          <br />
+          <br />
+          <legend>Select language which you know</legend>
+          <label for="language">HTML</label>
+          <input type="checkbox" name="language" value="html" />
+          <label for="language">JS</label>
+          <input type="checkbox" name="language" value="js" />
+          <label for="language">CSS</label>
+          <input type="checkbox" name="language" value="css" />
+          <label for="language">other</label>
+          <input type="checkbox" name="language" value="other" />
+          <br />
+          <br />
+          <label for="expirience">Select your expirience</label>
+          <select name="expirience" id="">
+            <option value="High">High</option>
+            <option value="Low">Low</option>
+          </select>
+          <br />
+          <br />
+          <label for="about">About</label>
+          <br />
+          <br />
+          <textarea
+            name=""
+            id=""
+            cols="100"
+            rows="10"
+            placeholder="Describe yourself like a person"
+          ></textarea>
+          <br />
+          <br />
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </fieldset>
+    </form>
+  </body>
+</html>
